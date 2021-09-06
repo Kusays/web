@@ -1,5 +1,5 @@
 module.exports = {
-    locals: {
-      hello: "world"
-    }
+  locals: {
+    hello: "world"
+  }
 };
