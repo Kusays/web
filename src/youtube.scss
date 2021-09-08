@@ -1,0 +1,180 @@
+.lasttime {
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .gl {
+        margin-left: 4px;
+        fill: rgba(117, 117, 117, 1);
+    }
+}
+.cards {
+    display: block;
+    width: 1000px;
+    text-decoration: none;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+    h1 {
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 40px;
+        cursor: pointer;
+        color: black;
+        margin-top: 15px;
+        
+    }
+    .smolltext {
+        font-size: 22px;
+        color: gray;
+        cursor: pointer;
+    }
+
+    img {
+        width: 100%;
+        cursor: pointer;
+    }    
+}
+
+
+.man {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    img {
+        border-radius: 50%;
+    }
+    
+    .data {
+        font-size: 22px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        .name {
+            color: black;
+            cursor: pointer;
+        }
+        
+    }
+}
+
+.smollsnip {
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    width: 1000px;
+    .latest {
+        font-weight: normal;
+        
+    }
+    .smollname {
+        font-weight: bold;
+    }
+
+    .smolldiscription {
+        margin-top: -15px;
+        color: gray;
+    }
+
+    .lasttime {
+        margin-top: -15px;
+    }
+    
+    .flag {
+
+    }
+
+    .link {
+        width: 152px;
+        height: 97px;
+    }
+
+    .img {
+        width: 152px;
+    }
+    .star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .all {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .neall{
+            width: calc(1000px - 152px);
+        }
+    }
+
+}
+
+.video {
+    max-width: 336px;
+    a {
+        max-height: 200px;
+        margin-top: -1px;
+        text-overflow: ellipsis;
+        overflow-y: hidden;
+        text-decoration: none;     
+        color: black;   
+        font-size: 22px;
+    }
+    .squares {
+        display: flex;
+        width:60px;
+        height:30px;
+        background:black;
+        position: absolute;
+        top: 1230px;
+        left: 270px;
+        opacity: 0.7;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 21px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        color: gray;
+        font-size: 19px;
+        
+    }
+    .squ {
+        width:87px;
+        height:21px;
+        background:gray;
+        color: lightgray;
+        font-size: 18px;
+    }
+
+}
+
+.setka {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 15px;
+    .one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 35px;
+    }
+}
+
+
+
